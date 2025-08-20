@@ -1,0 +1,5 @@
+/.env.example
+/.funcignore
+/README.md
+/env
+/local.settings.json
