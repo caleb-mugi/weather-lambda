@@ -19,7 +19,7 @@ CITIES = [
 EMAIL_SMTP_SERVER = "smtp.gmail.com"
 EMAIL_SMTP_PORT = 587
 EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')
-EMAIL_PASSWORD = os.getenv('EMAIL_APP_PASSWORD')  # Use app password for Gmail
+EMAIL_PASSWORD = os.getenv('EMAIL_APP_PASSWORD')  
 RECIPIENT_EMAIL = os.getenv('RECIPIENT_EMAIL')
 
 # SMS Configuration - DISABLED
@@ -30,9 +30,9 @@ ALERT_TRIGGERS = {
     "extreme_heat_evening": {
         "description": "Temperature above 101°F after 5 PM with wind",
         "conditions": {
-            "temp_threshold": 101,  # Fahrenheit
-            "time_after": 17,  # 5 PM in 24-hour format
-            "wind_speed_min": 10  # mph
+            "temp_threshold": 80,  # Fahrenheit
+            "time_after": 9,  # change for testing -- align with meeting time
+            "wind_speed_min": 4  # mph
         }
     },
     "dust_storm_warning": {

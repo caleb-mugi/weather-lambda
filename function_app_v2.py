@@ -2,20 +2,16 @@ import azure.functions as func
 import logging
 import json
 from datetime import datetime
-from weather_api import WeatherAPI
-from alert_system import AlertSystem
-from notification_system import NotificationSystem
-from azure_storage import AzureWeatherStorage
 
 # Create the Azure Functions app
 app = func.FunctionApp()
 
-@app.timer_trigger(schedule="0 0 * * * *", arg_name="mytimer", run_on_startup=False,
-              use_monitor=False) 
+@app.timer_trigger(schedule="0 */2 * * * *", arg_name="mytimer", run_on_startup=False,
+              use_monitor=False)
 def weather_alert_timer(mytimer: func.TimerRequest) -> None:
     """
-    Azure Function triggered every hour to check weather and send alerts
-    CRON: "0 0 * * * *" = every hour at minute 0
+    Azure Function triggered every 2 minutes to check weather and send alerts
+    CRON: "0 */2 * * * *" = every 2 minutes at second 0
     """
     utc_timestamp = datetime.utcnow().replace(
         tzinfo=datetime.timezone.utc).isoformat()
@@ -26,6 +22,12 @@ def weather_alert_timer(mytimer: func.TimerRequest) -> None:
     logging.info('Python timer trigger function ran at %s', utc_timestamp)
     
     try:
+        # Import here to avoid startup issues
+        from weather_api import WeatherAPI
+        from alert_system import AlertSystem
+        from notification_system import NotificationSystem
+        from azure_storage import AzureWeatherStorage
+        
         # Initialize components
         weather_api = WeatherAPI()
         alert_system = AlertSystem()

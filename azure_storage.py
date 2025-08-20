@@ -16,11 +16,17 @@ class AzureWeatherStorage:
             self.use_azure = False
             self.local_data = {"weather": [], "alerts": []}
         else:
-            self.use_azure = True
-            self.table_service = TableServiceClient.from_connection_string(self.connection_string)
-            self.weather_table_name = "WeatherHistory"
-            self.alerts_table_name = "AlertsHistory"
-            self._ensure_tables_exist()
+            try:
+                self.use_azure = True
+                self.table_service = TableServiceClient.from_connection_string(self.connection_string)
+                self.weather_table_name = "WeatherHistory"
+                self.alerts_table_name = "AlertsHistory"
+                self._ensure_tables_exist()
+            except Exception as e:
+                logging.error(f"Failed to initialize Azure Storage: {e}")
+                logging.warning("Falling back to local storage")
+                self.use_azure = False
+                self.local_data = {"weather": [], "alerts": []}
     
     def _ensure_tables_exist(self):
         """Create tables if they don't exist"""
@@ -81,6 +87,13 @@ class AzureWeatherStorage:
             
         except Exception as e:
             logging.error(f"Error storing weather data in Azure: {e}")
+            # Fallback to local storage
+            if not hasattr(self, 'local_data'):
+                self.local_data = {"weather": [], "alerts": []}
+            for data in weather_data_list:
+                data['stored_at'] = datetime.utcnow().isoformat()
+                self.local_data["weather"].append(data)
+            logging.info(f"Stored weather data locally as fallback for {len(weather_data_list)} cities")
     
     def store_alert(self, alert):
         """Store alert in Azure Table Storage or local fallback"""
@@ -118,12 +131,23 @@ class AzureWeatherStorage:
             
         except Exception as e:
             logging.error(f"Error storing alert in Azure: {e}")
+            # Fallback to local storage
+            if not hasattr(self, 'local_data'):
+                self.local_data = {"weather": [], "alerts": []}
+            alert_data = {
+                **alert,
+                'stored_at': datetime.utcnow().isoformat(),
+                'email_sent': True,
+                'sms_sent': False
+            }
+            self.local_data["alerts"].append(alert_data)
+            logging.info(f"Stored alert locally as fallback: {alert['type']} for {alert['city']}")
     
     def get_recent_weather(self, city=None, hours=24):
         """Get recent weather data"""
         if not self.use_azure:
             # Local fallback
-            cutoff_time = datetime.utcnow() - timedelta(hours=hours)
+            cutoff_time = datetime() - timedelta(hours=hours)
             recent_data = []
             
             for data in self.local_data["weather"]:

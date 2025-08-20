@@ -34,15 +34,40 @@ class NotificationSystem:
             body = self._create_email_body(alert)
             msg.attach(MIMEText(body, 'html'))
             
-            # Send email
-            server = smtplib.SMTP(EMAIL_SMTP_SERVER, EMAIL_SMTP_PORT)
-            server.starttls()
-            server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-            text = msg.as_string()
-            server.sendmail(EMAIL_ADDRESS, RECIPIENT_EMAIL, text)
-            server.quit()
+            # Send email with improved connection handling
+            server = None
+            email_sent = False
+            try:
+                # Use STARTTLS with shorter timeout and better error handling
+                server = smtplib.SMTP('smtp.gmail.com', 587, timeout=10)
+                server.ehlo()
+                server.starttls()
+                server.ehlo()
+                server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+                text = msg.as_string()
+                server.sendmail(EMAIL_ADDRESS, RECIPIENT_EMAIL, text)
+                logging.info(f"Email alert sent successfully for {alert['city']}")
+                email_sent = True
+            except smtplib.SMTPAuthenticationError as auth_error:
+                logging.error(f"Email authentication failed: {auth_error}")
+                email_sent = False
+            except smtplib.SMTPConnectError as conn_error:
+                logging.error(f"Failed to connect to SMTP server: {conn_error}")
+                email_sent = False
+            except Exception as e:
+                logging.error(f"Email sending failed: {e}")
+                email_sent = False
+            finally:
+                if server:
+                    try:
+                        server.quit()
+                    except:
+                        pass
             
-            logging.info(f"Email alert sent for {alert['city']}: {alert['type']}")
+            if email_sent:
+                logging.info(f"Email alert sent for {alert['city']}: {alert['type']}")
+            else:
+                logging.warning(f"Email alert FAILED for {alert['city']}: {alert['type']}")
             
         except Exception as e:
             logging.error(f"Failed to send email alert: {e}")

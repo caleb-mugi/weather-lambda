@@ -1,0 +1,235 @@
+2025-08-20 09:36:50,903 - INFO - Database initialized successfully
+2025-08-20 09:38:28,908 - INFO - Database initialized successfully
+2025-08-20 09:38:28,908 - INFO - Starting weather check...
+2025-08-20 09:38:29,049 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&units=imperial
+2025-08-20 09:38:29,140 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&units=imperial
+2025-08-20 09:38:29,220 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&units=imperial
+2025-08-20 09:38:29,306 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&units=imperial
+2025-08-20 09:38:29,306 - WARNING - No weather data retrieved
+2025-08-20 09:50:11,607 - INFO - Database initialized successfully
+2025-08-20 09:50:11,608 - INFO - Starting weather check...
+2025-08-20 09:50:11,739 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:50:11,817 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:50:11,891 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:50:11,995 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:50:11,996 - WARNING - No weather data retrieved
+2025-08-20 09:50:18,186 - INFO - Database initialized successfully
+2025-08-20 09:50:23,761 - INFO - Database initialized successfully
+2025-08-20 09:50:23,761 - INFO - Starting weather check...
+2025-08-20 09:50:23,834 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=your_new_api_key_here&units=imperial
+2025-08-20 09:50:23,925 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=your_new_api_key_here&units=imperial
+2025-08-20 09:50:24,000 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=your_new_api_key_here&units=imperial
+2025-08-20 09:50:24,132 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=your_new_api_key_here&units=imperial
+2025-08-20 09:50:24,132 - WARNING - No weather data retrieved
+2025-08-20 09:51:01,006 - INFO - Database initialized successfully
+2025-08-20 09:51:01,006 - INFO - Starting weather check...
+2025-08-20 09:51:01,113 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:51:01,188 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:51:01,265 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:51:01,344 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=02ef31fef5cd245efe41c7c251aba3f8&units=imperial
+2025-08-20 09:51:01,345 - WARNING - No weather data retrieved
+2025-08-20 09:53:09,934 - INFO - Database initialized successfully
+2025-08-20 09:53:09,934 - INFO - Starting weather check...
+2025-08-20 09:53:10,082 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:10,083 - INFO - Using mock data for Phoenix: 109.0°F
+2025-08-20 09:53:10,163 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:10,163 - INFO - Using mock data for Tucson: 100.0°F
+2025-08-20 09:53:10,249 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:10,249 - INFO - Using mock data for Scottsdale: 103.0°F
+2025-08-20 09:53:10,344 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:10,344 - INFO - Using mock data for Mesa: 100.0°F
+2025-08-20 09:53:10,346 - INFO - Stored weather data for 4 cities
+2025-08-20 09:53:10,346 - INFO - No alerts triggered
+2025-08-20 09:53:10,346 - INFO - Phoenix: 109.0°F, Wind: 8.0mph, Conditions: dust
+2025-08-20 09:53:10,346 - INFO - Tucson: 100.0°F, Wind: 5.0mph, Conditions: dust
+2025-08-20 09:53:10,346 - INFO - Scottsdale: 103.0°F, Wind: 8.0mph, Conditions: dust
+2025-08-20 09:53:10,346 - INFO - Mesa: 100.0°F, Wind: 13.0mph, Conditions: clear sky
+2025-08-20 09:53:24,409 - INFO - Database initialized successfully
+2025-08-20 09:53:24,409 - INFO - Starting weather check...
+2025-08-20 09:53:24,492 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:24,492 - INFO - Using mock data for Phoenix: 105.0°F
+2025-08-20 09:53:24,570 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:24,570 - INFO - Using mock data for Tucson: 97.0°F
+2025-08-20 09:53:24,650 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:24,650 - INFO - Using mock data for Scottsdale: 103.0°F
+2025-08-20 09:53:24,745 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:53:24,745 - INFO - Using mock data for Mesa: 99.0°F
+2025-08-20 09:53:24,748 - INFO - Stored weather data for 4 cities
+2025-08-20 09:53:24,748 - INFO - No alerts triggered
+2025-08-20 09:53:24,748 - INFO - Phoenix: 105.0°F, Wind: 25.0mph, Conditions: clear sky
+2025-08-20 09:53:24,748 - INFO - Tucson: 97.0°F, Wind: 23.0mph, Conditions: clear sky
+2025-08-20 09:53:24,748 - INFO - Scottsdale: 103.0°F, Wind: 23.0mph, Conditions: few clouds
+2025-08-20 09:53:24,748 - INFO - Mesa: 99.0°F, Wind: 14.0mph, Conditions: clear sky
+2025-08-20 09:54:46,943 - INFO - Database initialized successfully
+2025-08-20 09:54:46,943 - INFO - Starting weather check...
+2025-08-20 09:54:47,024 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:54:47,024 - INFO - Using mock data for Phoenix: 106.0°F
+2025-08-20 09:54:47,104 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:54:47,104 - INFO - Using mock data for Tucson: 109.0°F
+2025-08-20 09:54:47,185 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:54:47,185 - INFO - Using mock data for Scottsdale: 110.0°F
+2025-08-20 09:54:47,263 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:54:47,263 - INFO - Using mock data for Mesa: 113.0°F
+2025-08-20 09:54:47,265 - INFO - Stored weather data for 4 cities
+2025-08-20 09:54:47,265 - INFO - No alerts triggered
+2025-08-20 09:54:47,265 - INFO - Phoenix: 106.0°F, Wind: 12.0mph, Conditions: few clouds
+2025-08-20 09:54:47,265 - INFO - Tucson: 109.0°F, Wind: 23.0mph, Conditions: dust
+2025-08-20 09:54:47,265 - INFO - Scottsdale: 110.0°F, Wind: 14.0mph, Conditions: dust
+2025-08-20 09:54:47,265 - INFO - Mesa: 113.0°F, Wind: 15.0mph, Conditions: few clouds
+2025-08-20 09:56:26,904 - INFO - Database initialized successfully
+2025-08-20 09:56:26,904 - INFO - Starting weather check...
+2025-08-20 09:56:27,014 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:56:27,015 - INFO - Using mock data for Phoenix: 109.0°F
+2025-08-20 09:56:27,093 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:56:27,093 - INFO - Using mock data for Tucson: 107.0°F
+2025-08-20 09:56:27,172 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:56:27,172 - INFO - Using mock data for Scottsdale: 101.0°F
+2025-08-20 09:56:27,254 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:56:27,254 - INFO - Using mock data for Mesa: 105.0°F
+2025-08-20 09:56:27,259 - INFO - Stored weather data for 4 cities
+2025-08-20 09:56:27,259 - INFO - Found 3 alerts
+2025-08-20 09:56:52,429 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 09:57:14,898 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 09:57:38,939 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 09:57:38,942 - INFO - Stored alert: extreme_heat_evening for Tucson
+2025-08-20 09:57:38,944 - INFO - Stored alert: extreme_heat_evening for Scottsdale
+2025-08-20 09:57:38,946 - INFO - Stored alert: extreme_heat_evening for Mesa
+2025-08-20 09:57:38,946 - INFO - Phoenix: 109.0°F, Wind: 5.0mph, Conditions: clear sky
+2025-08-20 09:57:38,946 - INFO - Tucson: 107.0°F, Wind: 15.0mph, Conditions: clear sky
+2025-08-20 09:57:38,946 - INFO - Scottsdale: 101.0°F, Wind: 15.0mph, Conditions: clear sky
+2025-08-20 09:57:38,946 - INFO - Mesa: 105.0°F, Wind: 10.0mph, Conditions: clear sky
+2025-08-20 09:58:13,769 - INFO - Database initialized successfully
+2025-08-20 09:58:13,769 - INFO - Starting weather check...
+2025-08-20 09:58:13,912 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:58:13,912 - INFO - Using mock data for Phoenix: 108.0°F
+2025-08-20 09:58:13,991 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:58:13,991 - INFO - Using mock data for Tucson: 107.0°F
+2025-08-20 09:58:14,070 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:58:14,071 - INFO - Using mock data for Scottsdale: 114.0°F
+2025-08-20 09:58:14,151 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 09:58:14,151 - INFO - Using mock data for Mesa: 105.0°F
+2025-08-20 09:58:14,153 - INFO - Stored weather data for 4 cities
+2025-08-20 09:58:14,153 - INFO - Found 3 alerts
+2025-08-20 09:58:38,757 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 09:59:04,918 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 09:59:28,990 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 09:59:28,991 - INFO - Stored alert: extreme_heat_evening for Phoenix
+2025-08-20 09:59:28,992 - INFO - Stored alert: extreme_heat_evening for Tucson
+2025-08-20 09:59:28,993 - INFO - Stored alert: extreme_heat_evening for Mesa
+2025-08-20 09:59:28,993 - INFO - Phoenix: 108.0°F, Wind: 21.0mph, Conditions: few clouds
+2025-08-20 09:59:28,993 - INFO - Tucson: 107.0°F, Wind: 13.0mph, Conditions: dust
+2025-08-20 09:59:28,993 - INFO - Scottsdale: 114.0°F, Wind: 8.0mph, Conditions: clear sky
+2025-08-20 09:59:28,993 - INFO - Mesa: 105.0°F, Wind: 21.0mph, Conditions: clear sky
+2025-08-20 10:05:27,446 - INFO - Database initialized successfully
+2025-08-20 10:05:27,447 - INFO - Starting weather check...
+2025-08-20 10:05:27,585 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:05:27,585 - INFO - Using mock data for Phoenix: 111.0°F
+2025-08-20 10:05:27,676 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:05:27,676 - INFO - Using mock data for Tucson: 112.0°F
+2025-08-20 10:05:27,754 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:05:27,754 - INFO - Using mock data for Scottsdale: 110.0°F
+2025-08-20 10:05:27,832 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:05:27,832 - INFO - Using mock data for Mesa: 111.0°F
+2025-08-20 10:05:27,835 - INFO - Stored weather data for 4 cities
+2025-08-20 10:05:27,835 - INFO - Found 4 alerts
+2025-08-20 10:05:56,040 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:06:21,649 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:06:48,357 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:07:12,392 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:07:12,396 - INFO - Stored alert: extreme_heat_evening for Phoenix
+2025-08-20 10:07:12,398 - INFO - Stored alert: extreme_heat_evening for Tucson
+2025-08-20 10:07:12,399 - INFO - Stored alert: extreme_heat_evening for Scottsdale
+2025-08-20 10:07:12,401 - INFO - Stored alert: extreme_heat_evening for Mesa
+2025-08-20 10:07:12,401 - INFO - Phoenix: 111.0°F, Wind: 21.0mph, Conditions: dust
+2025-08-20 10:07:12,401 - INFO - Tucson: 112.0°F, Wind: 23.0mph, Conditions: few clouds
+2025-08-20 10:07:12,401 - INFO - Scottsdale: 110.0°F, Wind: 23.0mph, Conditions: clear sky
+2025-08-20 10:07:12,401 - INFO - Mesa: 111.0°F, Wind: 13.0mph, Conditions: clear sky
+2025-08-20 10:07:19,647 - INFO - Database initialized successfully
+2025-08-20 10:07:19,647 - INFO - Starting weather check...
+2025-08-20 10:07:19,794 - ERROR - Error fetching weather data for Phoenix: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4484&lon=-112.074&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:07:19,794 - INFO - Using mock data for Phoenix: 112.0°F
+2025-08-20 10:07:19,880 - ERROR - Error fetching weather data for Tucson: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=32.2226&lon=-110.9747&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:07:19,880 - INFO - Using mock data for Tucson: 111.0°F
+2025-08-20 10:07:19,960 - ERROR - Error fetching weather data for Scottsdale: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4942&lon=-111.9261&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:07:19,960 - INFO - Using mock data for Scottsdale: 111.0°F
+2025-08-20 10:07:20,047 - ERROR - Error fetching weather data for Mesa: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/weather?lat=33.4152&lon=-111.8315&appid=a8003205241ed60fcea240fa82e9a062&units=imperial
+2025-08-20 10:07:20,047 - INFO - Using mock data for Mesa: 113.0°F
+2025-08-20 10:07:20,049 - INFO - Stored weather data for 4 cities
+2025-08-20 10:07:20,049 - INFO - Found 3 alerts
+2025-08-20 10:07:50,077 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 10:08:14,636 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:08:44,887 - WARNING - SSL connection failed, trying STARTTLS: Connection unexpectedly closed: The read operation timed out
+2025-08-20 10:09:15,257 - ERROR - Failed to send email alert: _ssl.c:1112: The handshake operation timed out
+2025-08-20 10:09:45,292 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 10:10:09,884 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:10:09,889 - INFO - Stored alert: extreme_heat_evening for Phoenix
+2025-08-20 10:10:09,891 - INFO - Stored alert: extreme_heat_evening for Tucson
+2025-08-20 10:10:09,892 - INFO - Stored alert: extreme_heat_evening for Scottsdale
+2025-08-20 10:10:09,893 - INFO - Phoenix: 112.0°F, Wind: 17.0mph, Conditions: dust
+2025-08-20 10:10:09,893 - INFO - Tucson: 111.0°F, Wind: 11.0mph, Conditions: dust
+2025-08-20 10:10:09,893 - INFO - Scottsdale: 111.0°F, Wind: 21.0mph, Conditions: few clouds
+2025-08-20 10:10:09,893 - INFO - Mesa: 113.0°F, Wind: 6.0mph, Conditions: few clouds
+2025-08-20 10:14:27,707 - INFO - Database initialized successfully
+2025-08-20 10:14:27,708 - INFO - Starting weather check...
+2025-08-20 10:14:39,058 - INFO - Stored weather data for 4 cities
+2025-08-20 10:14:39,059 - INFO - No alerts triggered
+2025-08-20 10:14:39,059 - INFO - Phoenix: 102.7°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:14:39,059 - INFO - Tucson: 97.3°F, Wind: 8.1mph, Conditions: few clouds
+2025-08-20 10:14:39,059 - INFO - Scottsdale: 101.9°F, Wind: 5.8mph, Conditions: few clouds
+2025-08-20 10:14:39,060 - INFO - Mesa: 101.9°F, Wind: 8.1mph, Conditions: clear sky
+2025-08-20 10:52:52,818 - INFO - Database initialized successfully
+2025-08-20 10:52:52,818 - INFO - Starting weather check...
+2025-08-20 10:52:53,193 - INFO - Stored weather data for 4 cities
+2025-08-20 10:52:53,193 - INFO - No alerts triggered
+2025-08-20 10:52:53,193 - INFO - Phoenix: 104.8°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:52:53,193 - INFO - Tucson: 99.5°F, Wind: 8.1mph, Conditions: few clouds
+2025-08-20 10:52:53,193 - INFO - Scottsdale: 104.0°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:52:53,193 - INFO - Mesa: 103.8°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:53:07,559 - INFO - Database initialized successfully
+2025-08-20 10:53:07,559 - INFO - Starting weather check...
+2025-08-20 10:53:07,870 - INFO - Stored weather data for 4 cities
+2025-08-20 10:53:07,871 - INFO - No alerts triggered
+2025-08-20 10:53:07,871 - INFO - Phoenix: 104.8°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:53:07,871 - INFO - Tucson: 99.5°F, Wind: 8.1mph, Conditions: few clouds
+2025-08-20 10:53:07,871 - INFO - Scottsdale: 104.0°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:53:07,871 - INFO - Mesa: 103.8°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 10:53:48,093 - INFO - Database initialized successfully
+2025-08-20 10:53:48,093 - INFO - Starting weather check...
+2025-08-20 10:53:51,237 - INFO - Stored weather data for 4 cities
+2025-08-20 10:53:51,237 - INFO - Found 4 alerts
+2025-08-20 10:54:21,731 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 10:54:44,819 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:55:14,855 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 10:55:39,490 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:56:09,682 - WARNING - SSL connection failed, trying STARTTLS: Connection unexpectedly closed: The read operation timed out
+2025-08-20 10:59:17,704 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 10:59:47,734 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 11:00:11,788 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 11:00:11,793 - INFO - Stored alert: extreme_heat_evening for Phoenix
+2025-08-20 11:00:11,795 - INFO - Stored alert: extreme_heat_evening for Tucson
+2025-08-20 11:00:11,797 - INFO - Stored alert: extreme_heat_evening for Scottsdale
+2025-08-20 11:00:11,798 - INFO - Stored alert: extreme_heat_evening for Mesa
+2025-08-20 11:00:11,798 - INFO - Phoenix: 104.8°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 11:00:11,798 - INFO - Tucson: 99.5°F, Wind: 8.1mph, Conditions: few clouds
+2025-08-20 11:00:11,798 - INFO - Scottsdale: 104.0°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 11:00:11,798 - INFO - Mesa: 103.8°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 11:01:58,935 - INFO - Database initialized successfully
+2025-08-20 11:01:58,935 - INFO - Starting weather check...
+2025-08-20 11:01:59,385 - INFO - Stored weather data for 4 cities
+2025-08-20 11:01:59,385 - INFO - Found 4 alerts
+2025-08-20 11:02:29,446 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 11:02:53,516 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 11:03:23,548 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 11:03:48,133 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 11:04:18,167 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 11:04:42,778 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 11:05:12,810 - WARNING - SSL connection failed, trying STARTTLS: _ssl.c:1112: The handshake operation timed out
+2025-08-20 11:05:35,806 - ERROR - Failed to send email alert: [Errno 60] Operation timed out
+2025-08-20 11:05:35,812 - INFO - Stored alert: extreme_heat_evening for Phoenix
+2025-08-20 11:05:35,815 - INFO - Stored alert: extreme_heat_evening for Tucson
+2025-08-20 11:05:35,816 - INFO - Stored alert: extreme_heat_evening for Scottsdale
+2025-08-20 11:05:35,818 - INFO - Stored alert: extreme_heat_evening for Mesa
+2025-08-20 11:05:35,818 - INFO - Phoenix: 105.0°F, Wind: 4.6mph, Conditions: few clouds
+2025-08-20 11:05:35,818 - INFO - Tucson: 100.1°F, Wind: 6.0mph, Conditions: few clouds
+2025-08-20 11:05:35,818 - INFO - Scottsdale: 104.5°F, Wind: 6.9mph, Conditions: clear sky
+2025-08-20 11:05:35,818 - INFO - Mesa: 104.5°F, Wind: 6.9mph, Conditions: clear sky
